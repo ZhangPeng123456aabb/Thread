@@ -1,0 +1,25 @@
+#环境相关配置
+
+spring:
+    # 数据源配置
+    datasource:
+        url: jdbc:mysql://10.70.152.159:3306/test
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        username: test
+        password: test
+    redis:
+        host: 10.70.152.159
+        port: 6379
+        password: Redis@wheel
+        timeout: 1000
+        jedis:
+            pool:
+                max-idle: 5
+                min-idle: 2
+                max-active: 10
+                max-wait: 1000
+server:
+    port: 8080
+
+
+

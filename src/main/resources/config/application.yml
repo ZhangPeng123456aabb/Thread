@@ -1,0 +1,26 @@
+# 通用配置
+
+# 本地启动内嵌TOMCAT配置
+server:
+  servlet:
+    context-path: /exam
+
+spring:
+  # 运行环境配置： develop-开发环境|integrate-集成环境|produce-生产环境
+  profiles:
+    active: develop
+    # 时区和时间格式设置
+#  jackson:
+#    time-zone: GMT+8
+#    date-format: yyyy-MM-dd HH:mm:ss
+
+  jpa:
+    database: oracle
+    show-sql: true
+
+mybatis:
+  # 自定义配置
+  # config-location: classpath:mybatis.xml
+  # mapper所在位置:
+  mapperLocations: classpath:mapper/*xml
+  type-aliases-package: com.exam.entity

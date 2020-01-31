@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 保存字段列表，供mapper使用 -->
+<mapper namespace="sql">
+	<sql id="base">id, gmt_create, gmt_modified</sql>
+
+	<sql id="version">
+		<include refid="sql.base" />
+		, version
+	</sql>
+
+	<sql id="baseSelect">
+		id,
+		<include refid="sql.base" />
+	</sql>
+
+	<sql id="versionSelect">
+		id,
+		<include refid="sql.version" />
+	</sql>
+
+	<sql id="baseUpdate">
+		gmt_modified = now()
+	</sql>
+
+	<sql id="versionUpdate">
+		gmt_modified = now(), version = version + 1
+	</sql>
+
+</mapper>

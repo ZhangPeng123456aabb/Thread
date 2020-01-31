@@ -1,0 +1,16 @@
+
+[squid:CallToDeprecatedMethod*",Remove this use of "Date"; it is deprecated.(ßË´8ÙÄ„úî-
+ssquid:UselessImportCheck"CRemove this unused import 'org.springframework.data.annotation.Id'.(áŠ¿¸ıÿÿÿÿ8ˆ£öî-
+[
+squid:S1068"9Replace this use of System.out or System.err by a logger.(Íê¼Ëûÿÿÿÿ8§Õ‰úî-
+^squid:UselessImportCheck".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8²‰ùî-
+ƒsquid:UselessImportCheck	"SRemove this unused import 'org.springframework.web.bind.annotation.RestController'.(±íş¡şÿÿÿÿ8¥¦ˆöî-
+Isquid:S1135"2Complete the task associated to this TODO comment.(¥ğöù
+isquid:S1764#"KCorrect one of the identical sub-expressions on both sides of operator "&&"(ÁŒó×8¤£Ëøî-
+Zsquid:UselessImportCheck"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ8²‰ùî-
+[
+squid:S106$"9Replace this use of System.out or System.err by a logger.(ŸÖ£Ìşÿÿÿÿ8ÙşØøî-
+Nsquid:S1135M"2Complete the task associated to this TODO comment.(ÂŠÒÚøÿÿÿÿ
+V
+squid:S106;"9Replace this use of System.out or System.err by a logger.(¢ª£»8üŒúî-
+9squid:S36269"Remove this redundant jump.(ûÁİ…8ø´ùî-
